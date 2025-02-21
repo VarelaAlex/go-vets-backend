@@ -1,6 +1,5 @@
 module project/go-vets-backend
 
-// +qoddi goVersion go1.23
 go 1.23
 
 require (
