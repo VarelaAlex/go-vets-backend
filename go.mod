@@ -1,6 +1,9 @@
 module project/go-vets-backend
 
-go 1.23
+// +qoddi goVersion go1.12
+go 1.12
+
+require github.com/lib/pq v1.10.0
 
 require (
 	github.com/golang-jwt/jwt/v4 v4.5.1
