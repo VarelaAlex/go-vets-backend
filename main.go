@@ -1,9 +1,11 @@
 package main
 
 import (
-	"github.com/uo271288/go-vets-backend/db"
+	"project/go-vets-backend/db"
+	"project/go-vets-backend/handlers"
 )
 
 func main() {
 	db.ConnectDB()
+	handlers.Handlers()
 }
